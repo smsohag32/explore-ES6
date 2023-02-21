@@ -19,3 +19,23 @@ console.log()
 
 const doubleMake = numbers.map(num=> num * 2);
 console.log(doubleMake);
+
+
+const friends = ['sohag', 'agun', 'durjoby'];
+const firstLetters = friends.map(f => f[0]);
+// console.log(firstLetters);
+
+const products = [
+    {id: 1, name: 'laptop', price: 9000},
+    {id: 1, name: 'phone', price: 9000},
+    {id: 1, name: 'watch', price: 9000}
+];
+
+const productsName = products.map(product => product.name);
+console.log(productsName);
+
+const price = products.map(product => product.price);
+console.log(price);
+
+
+
