@@ -17,3 +17,5 @@ const data = {
 
 const salary = data.users[3].salary;
 console.log(salary);
+
+h
